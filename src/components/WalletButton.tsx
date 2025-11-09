@@ -4,7 +4,7 @@ import { injected } from '@wagmi/connectors'
 import { useConnect } from 'wagmi'
 
 export default function WalletButton() {
-  const { connectAsync } = useConnect({ connector: injected() })
+  const { connectAsync } = useConnect()
   return (
     <button
       onClick={async () => await connectAsync({ connector: injected() })}

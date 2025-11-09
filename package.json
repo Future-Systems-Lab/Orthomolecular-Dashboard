@@ -10,13 +10,13 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.7",
-    "@wagmi/connectors": "^5.9.9",
+    "@wagmi/connectors": "5.9.9",
     "next": "16.0.1",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "recharts": "^3.3.0",
-    "viem": "^2.36.0",
-    "wagmi": "^2.16.9"
+    "viem": "2.36.0",
+    "wagmi": "2.16.9"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
@@ -30,7 +30,10 @@
   },
   "pnpm": {
     "overrides": {
-      "@wagmi/core": "2.20.3"
+      "wagmi": "2.16.9",
+      "@wagmi/connectors": "5.9.9",
+      "@wagmi/core": "2.20.3",
+      "viem": "2.36.0"
     }
   }
 }
