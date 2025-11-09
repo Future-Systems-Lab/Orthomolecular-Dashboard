@@ -1,0 +1,7 @@
+[
+  {"precursor": "Tryptophan", "target": "Serotonin", "potential": 0.72},
+  {"precursor": "Tyrosine", "target": "Dopamine", "potential": 0.68},
+  {"precursor": "Glutamine", "target": "GABA", "potential": 0.63},
+  {"precursor": "Phenylalanine", "target": "Endorphins", "potential": 0.59},
+  {"precursor": "Anandamide", "target": "Endocannabinoid", "potential": 0.74}
+]
